@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Comforter;
+  src: url(./assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf);
+}
+
+.comforter {
+  font-family: "Comforter";
+}
