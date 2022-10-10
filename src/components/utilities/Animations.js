@@ -6,6 +6,7 @@ import {
   zoomIn,
   rubberBand,
   headShake,
+  slideInDown,
 } from "react-animations";
 
 const styles = StyleSheet.create({
@@ -20,6 +21,11 @@ const styles = StyleSheet.create({
   fadeInRight: {
     animationName: fadeInRight,
     animationDuration: "1s",
+  },
+  slideInDown: {
+    animationName: slideInDown,
+    animationDuration: "1.7s",
+    animationIterationCount: "infinite",
   },
   zoomIn: {
     animationName: zoomIn,

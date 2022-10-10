@@ -36,14 +36,14 @@ export default function Aside() {
   }
 
   return (
-    <nav className="hidden lg:block h-full top-0 w-56 fixed bg-slate-100 p-5  bg-gradient-to-tl from-blue-200 via-green-200 to-violet-300">
+    <nav className="hidden lg:block h-full top-0 w-56 fixed bg-slate-100 p-5  bg-gradient-to-tl from-blue-200 via-green-200 to-violet-300 z-10">
       <div className="comforter text-4xl text-center border-t-2 border-b-2 border-double border-t-slate-500 border-b-slate-500 p-3 font-bold">
         Matteo Strazzera
       </div>
       <ul className="pt-20 px-6">
         <li className="py-4 px-3 border-b border-black">
           <a
-            href="/"
+            href="#home"
             className="flex justify-around"
             onMouseOver={animateH}
             onMouseLeave={inanimateMe}
@@ -56,7 +56,7 @@ export default function Aside() {
         </li>
         <li className="py-4 px-3 border-b border-black">
           <a
-            href="/"
+            href="#about"
             className="flex justify-around"
             onMouseOver={animateA}
             onMouseLeave={inanimateMe}
@@ -69,7 +69,7 @@ export default function Aside() {
         </li>
         <li className="py-4 px-3 border-b border-black ">
           <a
-            href="/"
+            href="#projects"
             className="flex justify-around"
             onMouseOver={animateP}
             onMouseLeave={inanimateMe}
@@ -84,7 +84,7 @@ export default function Aside() {
         </li>
         <li className="py-4 px-3 border-b border-black">
           <a
-            href="/"
+            href="#contacts"
             className="flex justify-around"
             onMouseOver={animateC}
             onMouseLeave={inanimateMe}
