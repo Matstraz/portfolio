@@ -9,8 +9,8 @@
     "hero": {
       "welcome": "Benvenuti!",
       "welcomeMessage": "Sono Matteo,",
-      "welcomeMessage2": "uno sviluppatore",
-      "welcomeMessage3": "full-stack.",
+      "welcomeMessage2": "un full-stack",
+      "welcomeMessage3": "developer.",
       "more": "Scopri di più"
     },
     "footer": {}

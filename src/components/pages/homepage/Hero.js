@@ -12,7 +12,7 @@ export default function Hero() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center lg:pl-56 bg-gradient-to-tl from-green-200 via-yellow-100 to-green-200 min-h-screen">
+    <div className="flex flex-col items-center justify-center lg:pl-56 bg-gradient-to-tl from-green-200 via-yellow-100 to-green-200 min-h-screen relative">
       <div className=" flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16">
         {/* language selectors*/}
         <div className="flex absolute top-5 right-5">
