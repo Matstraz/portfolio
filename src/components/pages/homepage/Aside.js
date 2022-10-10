@@ -1,5 +1,6 @@
 import { css } from "aphrodite";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import styles from "../../utilities/Animations";
 import icons from "../../utilities/Icons";
 
@@ -8,6 +9,8 @@ export default function Aside() {
   const [animateAbout, setAnimateAbout] = useState(false);
   const [animateProjects, setAnimateProjects] = useState(false);
   const [animateContacts, setAnimateContacts] = useState(false);
+
+  const { t } = useTranslation();
 
   function animateH() {
     setAnimateHome(true);
@@ -48,7 +51,7 @@ export default function Aside() {
             <span className={!animateHome ? "" : `${css(styles.rubberBand)}`}>
               {icons.home}
             </span>{" "}
-            Home
+            {t("homepage.aside.home")}
           </a>
         </li>
         <li className="py-4 px-3 border-b border-black">
@@ -61,7 +64,7 @@ export default function Aside() {
             <span className={!animateAbout ? "" : `${css(styles.zoomIn)}`}>
               {icons.about}
             </span>
-            About
+            {t("homepage.aside.about")}
           </a>
         </li>
         <li className="py-4 px-3 border-b border-black ">
@@ -76,7 +79,7 @@ export default function Aside() {
             >
               {icons.projects}
             </span>{" "}
-            Projects
+            {t("homepage.aside.projects")}
           </a>
         </li>
         <li className="py-4 px-3 border-b border-black">
@@ -89,7 +92,7 @@ export default function Aside() {
             <span className={!animateContacts ? "" : `${css(styles.tada)}`}>
               {icons.contacts}
             </span>{" "}
-            Contacts
+            {t("homepage.aside.contacts")}
           </a>
         </li>
       </ul>

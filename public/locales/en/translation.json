@@ -1,0 +1,12 @@
+{
+  "homepage": {
+    "aside": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "contacts": "Contacts"
+    },
+    "hero": {},
+    "footer": {}
+  }
+}
