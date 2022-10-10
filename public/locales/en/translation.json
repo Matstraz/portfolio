@@ -6,7 +6,13 @@
       "projects": "Projects",
       "contacts": "Contacts"
     },
-    "hero": {},
+    "hero": {
+      "welcome": "Hi!",
+      "welcomeMessage": "I'm Matteo,",
+      "welcomeMessage2": "a full-stack",
+      "welcomeMessage3": "developer.",
+      "more": "See More"
+    },
     "footer": {}
   }
 }

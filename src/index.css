@@ -7,6 +7,22 @@
   src: url(./assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf);
 }
 
+@font-face {
+  font-family: saira;
+  src: url(./assets/fonts/Saira/SairaCondensed-Regular.ttf);
+}
+
 .comforter {
   font-family: "Comforter";
+}
+
+.saira {
+  font-family: "saira";
+}
+
+.bgProfilePic {
+  background-image: url("/src/assets/pics/foto2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
