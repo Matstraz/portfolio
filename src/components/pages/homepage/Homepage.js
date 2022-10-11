@@ -1,5 +1,6 @@
 import Aside from "./Aside";
 import BodyContent from "./body content/BodyContent";
+import Contacts from "./Contacts";
 
 import Hero from "./Hero";
 
@@ -9,6 +10,7 @@ export default function Homepage() {
       <Aside />
       <Hero />
       <BodyContent />
+      <Contacts />
     </div>
   );
 }

@@ -29,7 +29,29 @@
           "bachelor": "Bachelor's degree",
           "content4": "Bachelor's degree in geology, University of Palermo."
         },
-        "experience": { "title": "Experience" }
+        "experience": {
+          "title": "Experience",
+          "job1": "Junior Full Stack Developer",
+          "content": "Practical experience working in teams aimed at agile web apllication development through HTML, CSS, JS, React and Node.",
+          "job2": "Teleseller",
+          "content2": "Outbound teleselling, customer data collection and recording during phone call.",
+          "job3": "Back-office administrator",
+          "content3": "Client administration and secretarial management.",
+          "job4": "Sales agent",
+          "content4": "Sales activities by appointment to individuals and businesses."
+        }
+      },
+      "projects": {
+        "title": "Projects"
+      },
+      "contacts": {
+        "title": "Contacts",
+        "formTitle": "Leave a Message",
+        "firstName": "First Name",
+        "LastName": "Last Name",
+        "email": "Email Address",
+        "messagge": "Your Message",
+        "send": "Send"
       }
     }
   }

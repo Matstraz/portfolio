@@ -12,6 +12,7 @@ import {
   faArrowDown,
   faGripLinesVertical,
   faGraduationCap,
+  faBriefcase,
 } from "@fortawesome/free-solid-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -36,12 +37,13 @@ const icons = {
   home: <FontAwesomeIcon icon={faHouseChimney} />,
   about: <FontAwesomeIcon icon={faAddressCard} />,
   projects: <FontAwesomeIcon icon={faDiagramProject} />,
-  contacts: (
-    /*  <FontAwesomeIcon icon={faComments} className={`${css(styles.tada)}`} /> */
-    <FontAwesomeIcon icon={faComments} />
+  contacts: <FontAwesomeIcon icon={faComments} />,
+  contactsInfinite: (
+    <FontAwesomeIcon icon={faComments} className={`${css(styles.tada2)}`} />
   ),
   linkedin: <FontAwesomeIcon icon={faLinkedin} className="h-7" />,
   github: <FontAwesomeIcon icon={faGithub} className="h-7" />,
+  githubMini: <FontAwesomeIcon icon={faGithub} className="h-5" />,
   facebook: <FontAwesomeIcon icon={faFacebook} className="h-7" />,
   arrowdown: (
     <FontAwesomeIcon
@@ -68,6 +70,7 @@ const icons = {
     github: github,
   },
   graduation: <FontAwesomeIcon icon={faGraduationCap} className="h-4" />,
+  job: <FontAwesomeIcon icon={faBriefcase} className="h-4" />,
 };
 
 export default icons;

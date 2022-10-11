@@ -29,7 +29,29 @@
           "bachelor": "Laurea Triennale",
           "content4": "Laurea in scienze geologiche,  Università degli Studi di Palermo."
         },
-        "experience": { "title": "Experience" }
+        "experience": {
+          "title": "Esperienza",
+          "job1": "Junior Full Stack Developer",
+          "content": "Esperienza pratica di lavoro in team volta allo sviluppo di apllicazioni web in modalità agile, attraverso HTML, CSS, JS, React e Node.",
+          "job2": "Teleseller",
+          "content2": "Teleselling outbound, raccolta e registrazione dati dei clienti in corso di telefonata.",
+          "job3": "Operatore back-office",
+          "content3": "Gestione amministrativa clienti e segreteria.",
+          "job4": "Agente di vendita",
+          "content4": "Attività di vendita su appuntamento presso clinti privati e business."
+        }
+      },
+      "projects": {
+        "title": "Progetti"
+      },
+      "contacts": {
+        "title": "Contatti",
+        "formTitle": "Invia un mesasggio",
+        "firstName": "Nome",
+        "lastName": "Cognome",
+        "email": "infdirizzo Email",
+        "message": "Messaggio",
+        "send": "Invia"
       }
     }
   }
