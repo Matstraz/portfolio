@@ -16,12 +16,12 @@
     "bodyContent": {
       "about": {
         "title": "Su di me",
-        "description": "Sono uno sviluppatore web di Palermo, Sicilia. Ho una laurea magistrale in geologia e ho iniziato a sviluppare nel 2022. Ho cominciato a studiare informatica spinto dalla passione per lambito IT ed ho imparato a creare applicazioni web interattive utilizzando le tecnologie più recenti; ho sfruttato la metodologia ’agile’ in diversi progetti.",
+        "description": "Sono uno sviluppatore web di Palermo, Sicilia. Ho una laurea magistrale in geologia e ho iniziato a sviluppare nel 2022. Ho cominciato a studiare informatica spinto dalla passione per l'ambito IT ed ho imparato a creare applicazioni web interattive utilizzando le tecnologie più recenti; ho sfruttato la metodologia ’agile’ in diversi progetti.",
         "tools": "Linguaggi & Tools",
         "education": {
           "title": "Formazione",
           "course": "Corso Web Developer",
-          "content": "Corso intensivo per diventare Full Stack Web Developer. Nella prima parte del corso ho appreso le basi necessarire per lo sviluppo web, imparando ad utilizzare Html, CSS e Git. La seconda parte è stata incentrata sullo studio di JavaScript per poi approfondire lo sviluppo FE attraverso React.Js e quello BE con Node.Js; ho inoltre acquisito le competenze necessarie su TypeScript.",
+          "content": "Corso intensivo per diventare Full Stack Web Developer. Nella prima parte del corso ho appreso le basi essenziali per lo sviluppo web, imparando ad utilizzare Html, CSS e Git. La seconda parte è stata incentrata sullo studio di JavaScript per poi approfondire lo sviluppo FE attraverso React.Js e quello BE con Node.Js; ho inoltre acquisito le competenze necessarie su TypeScript.",
           "internship": "Tirocinio",
           "content2": "Tirocinio pressso Istituto Nazionale di Geofisica e Vulcanologia, Palermo.",
           "master": "Laurea Magistrale",
@@ -32,13 +32,13 @@
         "experience": {
           "title": "Esperienza",
           "job1": "Junior Full Stack Developer",
-          "content": "Esperienza pratica di lavoro in team volta allo sviluppo di apllicazioni web in modalità agile, attraverso HTML, CSS, JS, React e Node.",
+          "content": "Esperienza pratica di lavoro in team volta allo sviluppo di apllicazioni web con metodologia 'agile' attraverso HTML, CSS, JS, React e Node.",
           "job2": "Teleseller",
           "content2": "Teleselling outbound, raccolta e registrazione dati dei clienti in corso di telefonata.",
           "job3": "Operatore back-office",
           "content3": "Gestione amministrativa clienti e segreteria.",
           "job4": "Agente di vendita",
-          "content4": "Attività di vendita su appuntamento presso clinti privati e business."
+          "content4": "Attività di vendita presso clienti privati e business."
         }
       },
       "projects": {
