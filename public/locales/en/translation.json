@@ -51,7 +51,8 @@
         "LastName": "Last Name",
         "email": "Email Address",
         "messagge": "Your Message",
-        "send": "Send"
+        "send": "Send",
+        "alert": "Message sent successfully"
       }
     }
   }

@@ -51,6 +51,14 @@ export default function Contacts() {
           console.log(error.text);
         }
       );
+
+    setData({
+      name: "",
+      lastName: "",
+      user_email: "",
+      message: "",
+    });
+    alert(t("homepage.bodyContent.contacts.alert"));
   };
 
   return (
@@ -63,11 +71,11 @@ export default function Contacts() {
           {icons.verticalLines}
           {t("homepage.bodyContent.contacts.title")}
         </div>
-        <div className="flex pt-12">
+        <div className="flex flex-col xl:flex-row gap-y-14">
           <Waypoint onEnter={enterAnimation} />
           <div
             ref={animationRef}
-            className="w-1/2 flex justify-center items-center"
+            className="w-full xl:w-1/2 flex justify-center items-center"
           >
             <div>
               <div className="flex justify-center gap-8">
@@ -112,7 +120,7 @@ export default function Contacts() {
             </div>
           </div>
           <form
-            className="w-1/3 m-auto flex flex-col justify-around border-2  border-green-300 bg-green-100 p-5 rounded-lg"
+            className="w-full md:w-8/12 xl:w-5/12 m-auto flex flex-col justify-around border-2  border-green-300 bg-green-100 p-5 rounded-lg"
             ref={formRef}
             onSubmit={sendEmail}
           >
@@ -152,6 +160,12 @@ export default function Contacts() {
               value={data.message}
               rows="5"
             ></textarea>
+            <input
+              className="hidden"
+              name="site_name"
+              value="your portfolio"
+              readOnly
+            />
             <div className="flex items-center justify-center px-4 pt-4 rounded-b">
               <button
                 className="text-lg mt-3 px-4 bg-green-200 text-slate-700 hover:bg-green-300 hover:text-slate-900 flex justify-center items-center gap-4 rounded-lg border-2 border-green-300"

@@ -51,7 +51,8 @@
         "lastName": "Cognome",
         "email": "infdirizzo Email",
         "message": "Messaggio",
-        "send": "Invia"
+        "send": "Invia",
+        "alert": "Messaggio inviato correttamente"
       }
     }
   }
