@@ -26,3 +26,49 @@
   background-position: center;
   background-size: cover;
 }
+
+@media all and (min-width: 1025px) {
+  .bgModal {
+    width: 600px;
+    height: 300px;
+  }
+}
+
+@media all and (max-width: 1024px) and (min-width: 641px) {
+  .bgModal {
+    width: 600px;
+    height: 300px;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .bgModal {
+    width: 300px;
+    height: 150px;
+  }
+}
+
+.allProjectsBg {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bgUbisoft {
+  background-image: url("/src/assets/pics/ubisoft.jpg");
+}
+
+.bgFinlab {
+  background-image: url("/src/assets/pics/finlab.jpg");
+}
+
+.bgOptionsfy {
+  background-image: url("/src/assets/pics/optionsfy.jpg");
+}
+
+.bgFontanelle {
+  background-image: url("/src/assets/pics/fontanelle.jpg");
+}
+
+.bgBazaar {
+  background-image: url("/src/assets/pics/bazaar.jpg");
+}

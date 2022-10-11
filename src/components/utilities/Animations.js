@@ -1,12 +1,15 @@
 import { StyleSheet } from "aphrodite";
 import {
   bounce,
-  fadeInRight,
+  fadeInUp,
   tada,
   zoomIn,
   rubberBand,
   headShake,
   slideInDown,
+  fadeInLeftBig,
+  fadeInRightBig,
+  pulse,
 } from "react-animations";
 
 const styles = StyleSheet.create({
@@ -18,9 +21,21 @@ const styles = StyleSheet.create({
     animationName: headShake,
     animationDuration: "1s",
   },
-  fadeInRight: {
-    animationName: fadeInRight,
-    animationDuration: "1s",
+  fadeInUp: {
+    animationName: fadeInUp,
+    animationDuration: "1.5s",
+  },
+  fadeInLeftBig: {
+    animationName: fadeInLeftBig,
+    animationDuration: "1.5s",
+  },
+  fadeInRightBig: {
+    animationName: fadeInRightBig,
+    animationDuration: "1.5s",
+  },
+  pulse: {
+    animationName: pulse,
+    animationDuration: "2s",
   },
   slideInDown: {
     animationName: slideInDown,
@@ -29,7 +44,7 @@ const styles = StyleSheet.create({
   },
   zoomIn: {
     animationName: zoomIn,
-    animationDuration: "1s",
+    animationDuration: "1.3s",
   },
   rubberBand: {
     animationName: rubberBand,

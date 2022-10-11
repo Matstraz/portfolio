@@ -12,7 +12,10 @@ export default function Hero() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center lg:pl-56 bg-gradient-to-tl from-green-200 via-yellow-100 to-green-200 min-h-screen relative">
+    <div
+      id="home"
+      className="flex flex-col items-center justify-center lg:pl-56 bg-gradient-to-tl from-green-200 via-yellow-100 to-green-200 min-h-screen relative"
+    >
       <div className=" flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16">
         {/* language selectors*/}
         <div className="flex absolute top-5 right-5">
@@ -59,7 +62,7 @@ export default function Hero() {
       </div>
       <a
         href="#projects"
-        className="text-lg mt-10 py-2 px-5 font-bold bg-green-200 text-slate-700 hover:bg-green-300 hover:text-slate-900 flex justify-center items-center gap-4"
+        className="text-lg mt-10 py-2 px-5 font-bold bg-green-200 text-slate-700 hover:bg-green-300 hover:text-slate-900 flex justify-center items-center gap-4 rounded-lg"
       >
         {t("homepage.hero.more")}
         {icons.arrowdown}
