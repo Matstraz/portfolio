@@ -13,6 +13,24 @@
       "welcomeMessage3": "developer.",
       "more": "Scopri di più"
     },
-    "footer": {}
+    "bodyContent": {
+      "about": {
+        "title": "Su di me",
+        "description": "Sono uno sviluppatore web di Palermo, Sicilia. Ho una laurea magistrale in geologia e ho iniziato a sviluppare nel 2022. Ho cominciato a studiare informatica spinto dalla passione per lambito IT ed ho imparato a creare applicazioni web interattive utilizzando le tecnologie più recenti; ho sfruttato la metodologia ’agile’ in diversi progetti.",
+        "tools": "Linguaggi & Tools",
+        "education": {
+          "title": "Formazione",
+          "course": "Corso Web Developer",
+          "content": "Corso intensivo per diventare Full Stack Web Developer. Nella prima parte del corso ho appreso le basi necessarire per lo sviluppo web, imparando ad utilizzare Html, CSS e Git. La seconda parte è stata incentrata sullo studio di JavaScript per poi approfondire lo sviluppo FE attraverso React.Js e quello BE con Node.Js; ho inoltre acquisito le competenze necessarie su TypeScript.",
+          "internship": "Tirocinio",
+          "content2": "Tirocinio pressso Istituto Nazionale di Geofisica e Vulcanologia, Palermo.",
+          "master": "Laurea Magistrale",
+          "content3": "Laurea magistrale in scienze e tecnologie geologiche, Università degli Studi di Palermo.",
+          "bachelor": "Laurea Triennale",
+          "content4": "Laurea in scienze geologiche,  Università degli Studi di Palermo."
+        },
+        "experience": { "title": "Experience" }
+      }
+    }
   }
 }
