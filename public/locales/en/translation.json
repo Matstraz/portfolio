@@ -21,7 +21,7 @@
         "education": {
           "title": "Education",
           "course": "Web Developer Course",
-          "content": "Intensive course to become a Full Stack Web Developer. In the first part of the course I learned the basics necessary for web development, learning how to use Html, CSS and Git. The second part focused on the study of JavaScript and then delved into FE development through React.Js and BE development with Node.Js; I also acquired the necessary skills on TypeScript.",
+          "content": "Intensive course to become a full stack web developer. In the first part of the course I studied the necessary basics of web development, learning how to use Html, CSS and Git. The second part focused on JavaScript, FE development through React.Js and BE development with Node.Js; I also gained expertise with TypeScript.",
           "internship": "Internship",
           "content2": "Internship, INGV, Palermo.",
           "master": "Master's degree",
@@ -32,13 +32,13 @@
         "experience": {
           "title": "Experience",
           "job1": "Junior Full Stack Developer",
-          "content": "Practical experience working in teams aimed at agile web apllication development through HTML, CSS, JS, React and Node.",
+          "content": "Practical experience working in teams, aimed at developing web applications with 'agile' methodology through HTML, CSS, JS, React and Node.",
           "job2": "Teleseller",
-          "content2": "Outbound teleselling, customer data collection and recording during phone call.",
+          "content2": "Outbound teleselling, collecting and recording customer data during phone calls.",
           "job3": "Back-office administrator",
           "content3": "Client administration and secretarial management.",
           "job4": "Sales agent",
-          "content4": "Sales activities by appointment to individuals and businesses."
+          "content4": "Sales activities to individuals and businesses."
         }
       },
       "projects": {
