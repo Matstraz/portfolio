@@ -48,9 +48,9 @@
         "title": "Contacts",
         "formTitle": "Leave a Message",
         "firstName": "First Name",
-        "LastName": "Last Name",
+        "lastName": "Last Name",
         "email": "Email Address",
-        "messagge": "Your Message",
+        "message": "Your Message",
         "send": "Send",
         "alert": "Message sent successfully"
       }
